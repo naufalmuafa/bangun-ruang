@@ -1,0 +1,34 @@
+{
+    "name": "naufal/bangun-ruang",
+    "description": "Library sederhana untuk menghitung bangun ruang",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "naufal muafa",
+            "email": "naufalmuafa01@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Naufal\\BangunRuang\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naufal\\BangunRuang\\Providers\\BangunRuangServiceProvider"
+            ],
+            "aliases": {
+                "PersegiPanjang": "Naufal\\BangunRuang\\Facades\\PersegiPanjang"
+            }
+        }
+    }
+}
