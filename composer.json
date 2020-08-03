@@ -2,7 +2,7 @@
     "name": "naufal/bangun-ruang",
     "description": "Library sederhana untuk menghitung bangun ruang",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "require": {
         "php": "^7.2.5",
         "illuminate/support": "^7.0"
